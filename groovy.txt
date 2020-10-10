@@ -1,7 +1,7 @@
 job("DevOpsTask6Job1"){
   description("This is first job of groovy project")
         scm {
-                github('https://github.com/chiragnagar1/test.git','master')
+                github('chiragnagar1/test.git','master')
         }
 
         triggers {
